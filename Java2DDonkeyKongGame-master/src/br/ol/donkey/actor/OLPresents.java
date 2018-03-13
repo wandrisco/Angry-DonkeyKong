@@ -27,7 +27,7 @@ public class OLPresents extends DonkeyActor {
         while (true) {
             switch (instructionPointer) {
                 case 0:
-                    setAnimation("ol_presents");
+                    setAnimation("intro"); //Changed this from "ol_presents" to "intro" to get it to play something different.
                     getAnimation().stop();
                     getAnimation().play();
                     instructionPointer = 1;
